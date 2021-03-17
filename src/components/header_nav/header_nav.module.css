@@ -1,0 +1,30 @@
+.header_nav{
+
+    display: inline;
+}
+
+
+.header_nav nav {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    vertical-align: top;
+    float: right;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.header_nav nav a{
+     vertical-align: top;
+     text-align: right;
+     padding: 10px;
+     letter-spacing: 1px;
+     text-decoration: none;
+     text-transform: capitalize;
+     color: #424242;
+     transition: 0.3s;
+ }
+
+.header_nav nav a:hover{
+    color: #de2b24;
+}
