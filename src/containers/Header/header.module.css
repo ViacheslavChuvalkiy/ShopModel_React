@@ -1,5 +1,6 @@
 .header_menu{
 
+
 }
 
 .logo__picture{
@@ -9,8 +10,15 @@
 
 .header__top{
 
+
 }
 
 .header__bottom{
 
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -60px;
+    padding: 0 5px;
 }

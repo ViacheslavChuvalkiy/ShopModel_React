@@ -3,7 +3,7 @@ import classes from '../Header/header.module.css';
 import Header_nav from '../../components/header_nav/header_nav'
 import logo from '../../img/IMG_0725.jpeg'
 import logo2 from '../../img/IMG_0726.jpeg'
-import FontAwesome_nav from '../../components/fontAwesome/fontAwesome_nav'
+import Contact_menu from '../../components/header_nav/contact_menu'
 
 
 class Header extends Component{
@@ -14,7 +14,7 @@ class Header extends Component{
                     <img src={logo} alt={"logo"} className={classes.logo__picture}/>
                     <img src={logo2} alt={"logo2"} className={classes.logo__picture}/>
 
-                    <FontAwesome_nav/>
+                    <Contact_menu/>
 
                 </div>
 

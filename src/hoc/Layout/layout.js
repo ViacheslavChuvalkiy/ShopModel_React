@@ -9,6 +9,7 @@ render() {
     <div className={classes.layout}>
         <main>
             <Header_block/>
+            {/*<MainBlock/>*/}
         </main>
 
     </div>
