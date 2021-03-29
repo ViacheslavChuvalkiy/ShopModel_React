@@ -1,0 +1,27 @@
+.main_page{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-grow: 1;
+    width: 100%;
+
+}
+
+.main_credo{
+    padding: 10px 10px;
+    font-size: 23px;
+    word-spacing: 2px;
+    letter-spacing: 0.1em;
+    background: url("/src/img/BackgroundImg.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    /* -webkit-background-clip обрезает фон элемента по контуру текста */
+    -webkit-text-fill-color: transparent; /* переопределяет цвет текста с белого на прозрачный в браузерах на webkit */
+    -webkit-background-clip: text;
+}
+
+.main_img{
+
+}
+

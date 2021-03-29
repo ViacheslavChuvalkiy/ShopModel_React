@@ -1,6 +1,7 @@
 .header_menu{
 
-
+    border-bottom: 2px solid #424242;
+    box-sizing: border-box;
 }
 
 .logo__picture{
@@ -10,15 +11,13 @@
 
 .header__top{
 
-
 }
 
 .header__bottom{
-
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: -60px;
+    margin-top: -50px;
     padding: 0 5px;
 }

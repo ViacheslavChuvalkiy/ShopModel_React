@@ -16,6 +16,7 @@
     font-size: 25px;
 }
 
+
 .header_nav nav a{
      vertical-align: top;
      text-align: right;
@@ -28,16 +29,21 @@
  }
 
 .header_nav nav a:hover{
-    color: #de2b24;
+     color: #de2b24;
+ }
+
+.header_nav nav svg:hover{
+    cursor: pointer;
+    font-size: 28px;
 }
 
 .contact_menu{
-    display: inline-block;
+    display: flex;
     float: right;
-    padding: 5px 15px;
+    padding: 5px;
     margin-right: 15px;
     font-size: 23px;
-    transition: font-size 4s ;
+    transition: font-size 5s ease;
 
 }
 
@@ -47,5 +53,5 @@
 }
 
 .contact_menu svg{
-    padding-right: 5px;
+    margin-right: 8px;
 }

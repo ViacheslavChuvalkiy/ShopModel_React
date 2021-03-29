@@ -1,14 +1,29 @@
 import React from 'react'
 import classes from '../header_nav/header_nav.module.css'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Icon_FontAwesome from '../fontAwesome/iconFontAwesome'
 
 const Contact_menu = () => (
     <div className={classes.contact_menu}>
-        <FontAwesomeIcon icon={['fab', 'mobile']} />
-        <FontAwesomeIcon icon={['fab', 'envelope']} />
-        <FontAwesomeIcon icon={['fab', 'facebook-square']} />
-        <FontAwesomeIcon icon={['fab', 'instagram']} />
+        <Icon_FontAwesome
+            style = 'fa'
+            type = 'mobile-alt'
+        />
+        <Icon_FontAwesome
+            style = 'fa'
+            type = 'envelope'
+        />
+        <Icon_FontAwesome
+            style = 'fab'
+            color = 'blue'
+            type = 'facebook-square'
+        />
+        <Icon_FontAwesome
+            style = 'fab'
+            color = 'orange'
+            type = 'instagram'
+        />
+
     </div>
 );
 
