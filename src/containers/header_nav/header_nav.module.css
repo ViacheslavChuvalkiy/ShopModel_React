@@ -13,7 +13,7 @@
 }
 
 .header_nav nav svg{
-    font-size: 25px;
+    font-size: 27px;
 }
 
 
@@ -25,6 +25,7 @@
      text-decoration: none;
      text-transform: capitalize;
      color: #424242;
+     font-size: 19px;
      transition: 0.3s;
  }
 
@@ -34,24 +35,4 @@
 
 .header_nav nav svg:hover{
     cursor: pointer;
-    font-size: 28px;
-}
-
-.contact_menu{
-    display: flex;
-    float: right;
-    padding: 5px;
-    margin-right: 15px;
-    font-size: 23px;
-    transition: font-size 5s ease;
-
-}
-
-.contact_menu svg:hover{
-    cursor: pointer;
-    font-size: 28px;
-}
-
-.contact_menu svg{
-    margin-right: 8px;
 }
